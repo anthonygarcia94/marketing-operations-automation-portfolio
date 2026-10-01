@@ -20,10 +20,12 @@ If you're reviewing this portfolio for an operations, program, or automation rol
 
 | Explore | What you'll see |
 | --- | --- |
-| **[Working Project Intake Routing Demo](demos/project-intake-routing/README.md)** | A runnable Python example with fictional data, configurable business rules, dry-run safeguards, exception handling, and a GitHub Actions workflow. |
-| **[Team Capacity Planning](case-studies/team-capacity-planning.md)** | How I translated real working patterns into a more useful workload and capacity model. |
-| **[Request Reporting & Archival](case-studies/request-reporting.md)** | How lifecycle states, historical reporting, and automated refresh logic were designed together. |
-| **[Project Risk & Daily Management](case-studies/project-risk-dashboard.md)** | How detailed task data was translated into a leadership-level project-health signal. |
+| **[Working Demos](demos/README.md)** | Four independently recreated examples covering intake routing, capacity planning, request reporting, and project-risk reporting. |
+| **[Project Intake Routing Demo](demos/project-intake-routing/README.md)** | Configurable routing rules, dry-run safeguards, manual-review exceptions, and GitHub Actions. |
+| **[Team Capacity Planning Demo](demos/team-capacity-planning/README.md)** | Role-aware capacity assumptions and workload planning signals. |
+| **[Request Reporting Demo](demos/request-reporting/README.md)** | Request lifecycle classification, archival thinking, and aggregated reporting. |
+| **[Project Risk Dashboard Demo](demos/project-risk-dashboard/README.md)** | Task-level data translated into a concise leadership health signal. |
+| **[Written Case Studies](case-studies/README.md)** | The stakeholder problems, design decisions, validation approach, and operational reasoning behind the work. |
 
 ### Working demonstration
 
