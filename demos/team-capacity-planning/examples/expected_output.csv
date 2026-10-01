@@ -1,0 +1,9 @@
+sprint_label,team_member,task_points,task_capacity_baseline,utilization_pct,planning_signal
+26-S17,Avery Morgan,34,40,85.0,Balanced
+26-S17,Casey Rivera,43,40,107.5,Review Load
+26-S17,Jamie Kim,20,24,83.3,Balanced
+26-S17,Sam Bennett,18,28,64.3,Capacity Available
+26-S18,Avery Morgan,39,40,97.5,Balanced
+26-S18,Casey Rivera,31,40,77.5,Balanced
+26-S18,Jamie Kim,25,24,104.2,Review Load
+26-S18,Sam Bennett,27,28,96.4,Balanced
