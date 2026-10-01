@@ -14,6 +14,39 @@ I first determine what the team actually needs, how the workflow should behave, 
 
 Before an automation touches a live system, I test it in a controlled environment and review the proposed changes. Once validated, recurring workflows can be deployed through GitHub Actions so the background logic operates without someone manually running it.
 
+## Start here
+
+If you're reviewing this portfolio for an operations, program, or automation role, these are the fastest ways to explore it:
+
+| Explore | What you'll see |
+| --- | --- |
+| **[Working Project Intake Routing Demo](demos/project-intake-routing/README.md)** | A runnable Python example with fictional data, configurable business rules, dry-run safeguards, exception handling, and a GitHub Actions workflow. |
+| **[Team Capacity Planning](case-studies/team-capacity-planning.md)** | How I translated real working patterns into a more useful workload and capacity model. |
+| **[Request Reporting & Archival](case-studies/request-reporting.md)** | How lifecycle states, historical reporting, and automated refresh logic were designed together. |
+| **[Project Risk & Daily Management](case-studies/project-risk-dashboard.md)** | How detailed task data was translated into a leadership-level project-health signal. |
+
+### Working demonstration
+
+The **[Project Intake Routing Demo](demos/project-intake-routing/README.md)** is the best place to see the technical side of my approach. It is an independently recreated example—not employer production code—and shows the progression from a defined ownership model to a safe, testable automation.
+
+```text
+Fictional intake request
+        ↓
+Validate request fields
+        ↓
+Read configurable routing rules
+        ↓
+Known project type? ── No ──→ Manual Review
+        │
+       Yes
+        ↓
+Propose owner assignment
+        ↓
+DRY RUN by default
+        ↓
+Approved apply mode / scheduled workflow
+```
+
 ## Selected case studies
 
 ### Team Capacity Planning
